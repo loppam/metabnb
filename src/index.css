@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;900&family=Red+Rose:wght@300;400;500;600;700&family=Roboto:wght@100;300;500;700&family=Space+Grotesk:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+:root {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  font-family: "Red Rose";
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ////////////////////// HEAD CSS ///////////// */
+.head {
+  max-width: 1221px;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 99px;
+}
+.head-text {
+  max-width: 646px;
+}
+.head-text h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 78px;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+.head-text h1 span {
+  color: #a02279;
+}
+
+.head-text p {
+  max-width: 636px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+}
+
+.head-text input {
+  height: 54px;
+  width: 390px;
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  padding-left: 12px;
+}
+.head-text button {
+  height: 54px;
+  width: 230px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.img-combo {
+  display: flex;
+  gap: 8px;
+}
+.combo1,
+.combo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.combo1 {
+  margin-top: 99px;
+}
+
+/* /////////////////ADS start////////////////// */
+.ads {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding: 10px 100px;
+  margin-bottom: 19px;
+}
+.adsflex {
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  margin: 0px 100px;
+}
+
+/* ////////////////MIDDLE START////////////////// */
+
+.more {
+  margin: 0 92px;
+}
+.more h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+}
+.row .card {
+  display: flex;
+  flex-direction: column;
+}
+.row .card div {
+  display: flex;
+  justify-content: space-between;
+}
+.tt {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+}
+
+.tr {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.learn-more {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+}
+
+.learn {
+  display: flex;
+  justify-content: center;
+  gap: 122px;
+  flex-wrap: wrap;
+  margin: 100px auto;
+}
+.learn .learn-text {
+  margin-top: 86px;
+}
+.learn .learn-text h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.learn .learn-text p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  max-width: 415px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.learn .learn-text button {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+  color: #a02279;
+  padding: 13px 33px;
+  cursor: pointer;
+}
+.learn .learn-text button:hover {
+  background: linear-gradient(124.4deg, #bbb9b9 10.8%, #ffffff 87.34%);
+  transition: all 5s ease-in;
+}
+
+footer {
+  background: #1d1d1e;
+  margin-bottom: -20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 187px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: 0 100px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  flex-wrap: wrap;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 96px;
+}
+.social-logo {
+  display: flex;
+  gap: 32px;
+}
+.f-head {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer-row ul li {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #f1f3f9;
+}
+
+.footer-row {
+  display: flex;
+  gap: 13px;
+}
+
+.end {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  align-items: center;
+  color: #f7f7f7;
+  padding-bottom: 20px;
+  margin: 0 100px;
+}
+
+@media (max-width: 979px) {
+  .learn-img {
+    display: none;
+  }
+}
+@media (max-width: 620px) {
+  .img-combo {
+    transform: scale(0.8);
+  }
+  .adsflex {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  .searchbox input,
+  .searchbox button {
+    border-radius: 8px;
+  }
+}

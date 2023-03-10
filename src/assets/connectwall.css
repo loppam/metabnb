@@ -1,0 +1,90 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.648);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 101;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 326px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35rem;
+}
+.modal-content button{
+  cursor: pointer;
+}
+.content-box span {
+  width: 99.7%;
+  border: 1px solid #cfd8dc;
+}
+.choosewallet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  width: 35rem;
+}
+.choose{
+  margin: 32px 32px 16px 32px;
+  
+}
+.wallet {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.wallet-name {
+  margin: 0px 32px;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.wallet-name.metamask{
+  background: #F8F9FA;
+}
+.wallet-name.metamask:hover{
+  background: #ffffff;
+}
+.wallet-name.wallcon:hover{
+  background: #F8F9FA;
+}
+.wallet-name div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.wallet-name div a {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
